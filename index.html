@@ -6,14 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panda-Eommercs</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- costomize css -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
     <header class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container">
                 <img src="images/logo.png" alt="">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -24,16 +25,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#Backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#Subscribe">Subscribe</a>
                         </li>
 
                     </ul>
@@ -42,10 +43,10 @@
             </div>
         </nav>
         <!-- slider-start -->
-        <section class="mt-5">
+        <section class="mt-5" id="Home">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active bg-primary rounded-3 p-5">
+                    <div class="carousel-item active panda-bg-primary rounded-3 p-5">
                         <div class="row">
                             <div class="col-lg-7 d-flex align-items-center ">
                                 <div>
@@ -54,7 +55,7 @@
                                         front of funky world.
                                     </p>
                                     <h1>$420</h1>
-                                    <div class="btn btn-warning">By Now</div>
+                                    <div class="btn panda-btn-by-now">Buy Now</div>
                                 </div>
                             </div>
                             <div class="col-lg-5">
@@ -62,7 +63,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item bg-primary rounded-3 p-5">
+                    <div class="carousel-item panda-bg-primary rounded-3 p-5">
                         <div class="row">
                             <div class="col-lg-7 d-flex align-items-center ">
                                 <div>
@@ -71,7 +72,7 @@
                                         front of funky world.
                                     </p>
                                     <h1>$1200</h1>
-                                    <div class="btn btn-warning">By Now</div>
+                                    <div class="btn panda-btn-by-now">By Now</div>
                                 </div>
                             </div>
                             <div class="col-lg-5">
@@ -79,7 +80,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item bg-primary rounded-3 p-5">
+                    <div class="carousel-item panda-bg-primary rounded-3 p-5">
                         <div class="row">
                             <div class="col-lg-7 d-flex align-items-center ">
                                 <div>
@@ -88,7 +89,7 @@
                                         front of funky world.
                                     </p>
                                     <h1>$600</h1>
-                                    <div class="btn btn-warning">Buy Now</div>
+                                    <div class="btn panda-btn-by-now">Buy Now</div>
                                 </div>
                             </div>
                             <div class="col-lg-5">
@@ -117,7 +118,7 @@
         <!-- categories start -->
         <section class="pt-5">
             <div class="container text-center">
-                <div class="row g-2">
+                <div class="row g-4 categories">
                     <!-- single categories -->
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="p-3 border bg-warning rounded-3 d-flex align-items-center justify-content-around">
@@ -134,7 +135,8 @@
                     </div>
                     <!-- single categories -->
                     <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="p-3 border bg-primary rounded-3 d-flex align-items-center justify-content-around">
+                        <div
+                            class="p-3 border panda-bg-primary rounded-3 d-flex align-items-center justify-content-around">
                             <h1 class="text-white">shoes</h1>
                             <img class="" src="images/categories/shoes.png" alt="">
                         </div>
@@ -146,7 +148,7 @@
         </section>
         <!-- categories End -->
         <!-- shows start -->
-        <section class="container my-5">
+        <section class="container my-5" id="shoes">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -159,7 +161,7 @@
                             <h4 class="card-title">$120</h4>
                         </div>
                         <div class="card-footer bg-white border-0 pb-4">
-                            <div class="btn btn-warning">Buy Now >></div>
+                            <div class="btn panda-btn-by-now">Buy Now >></div>
                         </div>
                     </div>
                 </div>
@@ -173,7 +175,7 @@
                             <h4 class="card-title">$120</h4>
                         </div>
                         <div class="card-footer bg-white border-0 pb-4">
-                            <div class="btn btn-warning">Buy Now >></div>
+                            <div class="btn panda-btn-by-now">Buy Now >></div>
                         </div>
                     </div>
                 </div>
@@ -187,7 +189,7 @@
                             <h4 class="card-title">$120</h4>
                         </div>
                         <div class="card-footer bg-white border-0 pb-4">
-                            <div class="btn btn-warning">Buy Now >></div>
+                            <div class="btn panda-btn-by-now">Buy Now >></div>
                         </div>
                     </div>
                 </div>
@@ -196,7 +198,7 @@
         </section>
         <!-- shows end -->
         <!-- Backpack start  -->
-        <section class="container my-5">
+        <section class="container my-5" id="Backpack">
             <h2>Backpack</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -209,7 +211,7 @@
                                 to additional.</p>
                         </div>
                         <div class="card-footer bg-white border-0 pb-4">
-                            <div class="btn btn-warning">Buy Now >></div>
+                            <div class="btn panda-btn-by-now">Buy Now >></div>
                         </div>
                     </div>
                 </div>
@@ -223,7 +225,7 @@
                                 to additional.</p>
                         </div>
                         <div class="card-footer bg-white border-0 pb-4">
-                            <div class="btn btn-warning">Buy Now >></div>
+                            <div class="btn panda-btn-by-now">Buy Now >></div>
                         </div>
                     </div>
                 </div>
@@ -237,7 +239,7 @@
                                 to additional.</p>
                         </div>
                         <div class="card-footer bg-white border-0 pb-4">
-                            <div class="btn btn-warning">Buy Now >></div>
+                            <div class="btn panda-btn-by-now">Buy Now >></div>
                         </div>
                     </div>
                 </div>
@@ -245,8 +247,26 @@
             </div>
         </section>
         <!-- Backpack end  -->
+        <!-- Subscribe star  -->
+        <section class="container d-flex justify-content-center align-items-center bg-info py-5 rounded-3"
+            id="Subscribe">
+            <div class="div">
+                <h2>LET'S STAY IN TOUCH</h2>
+                <p>Get updates on sales, specials and more</p>
+                <form>
+                    <div class="mb-1">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <button type="submit" class="btn panda-btn-by-now">Submit</button>
+                </form>
+            </div>
+        </section>
+        <!-- Subscribe end  -->
     </main>
 
+    <footer class="mt-5 text-center">
+        <p><small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+    </footer>
 
     <script src="js/bootstrap.min.js"></script>
 </body>
